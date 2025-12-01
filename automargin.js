@@ -54,7 +54,7 @@ function autoResizeWithMargin() {
 // Add a custom menu to make the script easy to run
 function onOpen() {
   SpreadsheetApp.getUi()
-      .createMenu('Custom Resize')
-      .addItem('Resize with 10% Margin', 'autoResizeWithMargin')
+      .createMenu('AutoMargin')
+      .addItem('15%', 'autoResizeWithMargin')
       .addToUi();
 }
